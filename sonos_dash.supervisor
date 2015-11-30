@@ -1,0 +1,6 @@
+[program:sonos_dash]
+command=/home/pi/projects/sonos_dash/watch.py
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/sonos_dash.err.log
+stdout_logfile=/var/log/sonos_dash.out.log
