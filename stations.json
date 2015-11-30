@@ -1,0 +1,167 @@
+{
+    "": {
+        "album": "", 
+        "artist": "", 
+        "title": "", 
+        "uri": "", 
+        "playlist_position": "0", 
+        "duration": "0:00:00", 
+        "position": "0:00:00", 
+        "album_art": "", 
+        "metadata": ""
+    }, 
+    "x-sonosprog-http:station-song%3a1515403%2f20667714.mp4?sid=29&flags=8224&sn=2": {
+        "album": "Hold On When You Get Love And Let Go When You Give It", 
+        "title": "Hold On When You Get Love And Let Go When You Give It", 
+        "artist": "Stars", 
+        "uri": "x-sonosprog-http:station-song%3a1515403%2f20667714.mp4?sid=29&flags=8224&sn=2", 
+        "playlist_position": "1", 
+        "duration": "0:04:39", 
+        "position": "0:00:00", 
+        "album_art": "http://192.168.1.138:1400/getaa?s=1&u=x-sonosprog-http%3astation-song%253a1515403%252f20667714.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"sonos.com-http:*:audio/mp4:*\" duration=\"0:04:39\">x-sonosprog-http:station-song%3a1515403%2f20667714.mp4?sid=29&amp;flags=8224&amp;sn=2</res><r:streamContent></r:streamContent><upnp:albumArtURI>/getaa?s=1&amp;u=x-sonosprog-http%3astation-song%253a1515403%252f20667714.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2</upnp:albumArtURI><dc:title>Hold On When You Get Love And Let Go When You Give It</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Stars</dc:creator><upnp:album>Hold On When You Get Love And Let Go When You Give It</upnp:album></item></DIDL-Lite>"
+    }, 
+    "x-rincon-mp3radio://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01": {
+        "album": "", 
+        "title": "nprdmp_stream01", 
+        "artist": "", 
+        "uri": "x-rincon-mp3radio://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01", 
+        "playlist_position": "1", 
+        "duration": "0:00:00", 
+        "position": "0:00:00", 
+        "album_art": "", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"x-rincon-mp3radio:*:*:*\">x-rincon-mp3radio://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01</res><r:streamContent></r:streamContent><dc:title>nprdmp_stream01</dc:title><upnp:class>object.item</upnp:class></item></DIDL-Lite>"
+    }, 
+    "x-sonosprog-http:station-song%3a1397754%2f31790971.mp4?sid=29&flags=8224&sn=2": {
+        "album": "Alix", 
+        "title": "Would You Want Me", 
+        "artist": "Generationals", 
+        "uri": "x-sonosprog-http:station-song%3a1397754%2f31790971.mp4?sid=29&flags=8224&sn=2", 
+        "playlist_position": "2", 
+        "duration": "0:03:53", 
+        "position": "0:02:49", 
+        "album_art": "http://192.168.1.138:1400/getaa?s=1&u=x-sonosprog-http%3astation-song%253a1397754%252f31790971.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"sonos.com-http:*:audio/mp4:*\" duration=\"0:03:53\">x-sonosprog-http:station-song%3a1397754%2f31790971.mp4?sid=29&amp;flags=8224&amp;sn=2</res><r:streamContent></r:streamContent><upnp:albumArtURI>/getaa?s=1&amp;u=x-sonosprog-http%3astation-song%253a1397754%252f31790971.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2</upnp:albumArtURI><dc:title>Would You Want Me</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Generationals</dc:creator><upnp:album>Alix</upnp:album></item></DIDL-Lite>"
+    }, 
+    "x-rincon-mp3radio://stream03.ustream.ca:8000/cism128.mp3": {
+        "album": "", 
+        "artist": "", 
+        "title": "cism128.mp3", 
+        "uri": "x-rincon-mp3radio://stream03.ustream.ca:8000/cism128.mp3", 
+        "playlist_position": "1", 
+        "duration": "0:00:00", 
+        "position": "0:00:00", 
+        "album_art": "", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"x-rincon-mp3radio:*:*:*\">x-rincon-mp3radio://stream03.ustream.ca:8000/cism128.mp3</res><r:streamContent></r:streamContent><dc:title>cism128.mp3</dc:title><upnp:class>object.item</upnp:class></item></DIDL-Lite>"
+    }, 
+    "hls-radio://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01": {
+        "album": "", 
+        "title": "nprdmp_stream01", 
+        "artist": "", 
+        "uri": "hls-radio://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01", 
+        "playlist_position": "2", 
+        "duration": "0:00:00", 
+        "position": "0:00:00", 
+        "album_art": "", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\":*:application/octet-stream:*\">hls-radio://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01</res><r:streamContent>ZPSTR_CONNECTING</r:streamContent><upnp:albumArtURI>/getaa?u=hls-radio%3a%2f%2fnprdmp-stream01.akacast.akamaistream.net%2f7%2f941%2f364918%2fv1%2fnpr.akacast.akamaistream.net%2fnprdmp_stream01&amp;v=0</upnp:albumArtURI><dc:title>nprdmp_stream01</dc:title><upnp:class>object.item</upnp:class></item></DIDL-Lite>"
+    }, 
+    "x-sonosprog-http:station-song%3a1457492%2f12158763.mp4?sid=29&flags=8224&sn=2": {
+        "album": "Red Hot & Rio 2", 
+        "artist": "Bebel Gilberto", 
+        "title": "Acabou Chorare", 
+        "uri": "x-sonosprog-http:station-song%3a1457492%2f12158763.mp4?sid=29&flags=8224&sn=2", 
+        "playlist_position": "1", 
+        "duration": "0:04:42", 
+        "position": "0:00:00", 
+        "album_art": "http://192.168.1.138:1400/getaa?s=1&u=x-sonosprog-http%3astation-song%253a1457492%252f12158763.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"sonos.com-http:*:audio/mp4:*\" duration=\"0:04:42\">x-sonosprog-http:station-song%3a1457492%2f12158763.mp4?sid=29&amp;flags=8224&amp;sn=2</res><r:streamContent></r:streamContent><upnp:albumArtURI>/getaa?s=1&amp;u=x-sonosprog-http%3astation-song%253a1457492%252f12158763.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2</upnp:albumArtURI><dc:title>Acabou Chorare</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Bebel Gilberto</dc:creator><upnp:album>Red Hot &amp; Rio 2</upnp:album></item></DIDL-Lite>"
+    }, 
+    "aac://wamu-1.streamguys.com/wamu-1.aac": {
+        "album": "", 
+        "artist": "", 
+        "title": "wamu-1.aac", 
+        "uri": "aac://wamu-1.streamguys.com/wamu-1.aac", 
+        "playlist_position": "1", 
+        "duration": "0:00:00", 
+        "position": "0:26:18", 
+        "album_art": "", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"aac:*:application/octet-stream:*\">aac://wamu-1.streamguys.com/wamu-1.aac</res><r:streamContent></r:streamContent><dc:title>wamu-1.aac</dc:title><upnp:class>object.item</upnp:class></item></DIDL-Lite>"
+    }, 
+    "x-sonosprog-http:station-song%3a1736320%2f32571436.mp4?sid=29&flags=8224&sn=2": {
+        "album": "Hope", 
+        "title": "Top Notch", 
+        "artist": "Manchester Orchestra", 
+        "uri": "x-sonosprog-http:station-song%3a1736320%2f32571436.mp4?sid=29&flags=8224&sn=2", 
+        "playlist_position": "1", 
+        "duration": "0:03:57", 
+        "position": "0:00:00", 
+        "album_art": "http://192.168.1.138:1400/getaa?s=1&u=x-sonosprog-http%3astation-song%253a1736320%252f32571436.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"sonos.com-http:*:audio/mp4:*\" duration=\"0:03:57\">x-sonosprog-http:station-song%3a1736320%2f32571436.mp4?sid=29&amp;flags=8224&amp;sn=2</res><r:streamContent></r:streamContent><upnp:albumArtURI>/getaa?s=1&amp;u=x-sonosprog-http%3astation-song%253a1736320%252f32571436.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2</upnp:albumArtURI><dc:title>Top Notch</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Manchester Orchestra</dc:creator><upnp:album>Hope</upnp:album></item></DIDL-Lite>"
+    }, 
+    "x-sonosprog-http:station-song%3a1457492%2f3258141.mp4?sid=29&flags=8224&sn=2": {
+        "album": "Dots And Loops", 
+        "artist": "Stereolab", 
+        "title": "The Flower Called Nowhere", 
+        "uri": "x-sonosprog-http:station-song%3a1457492%2f3258141.mp4?sid=29&flags=8224&sn=2", 
+        "playlist_position": "1", 
+        "duration": "0:04:55", 
+        "position": "0:00:00", 
+        "album_art": "http://192.168.1.138:1400/getaa?s=1&u=x-sonosprog-http%3astation-song%253a1457492%252f3258141.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"sonos.com-http:*:audio/mp4:*\" duration=\"0:04:55\">x-sonosprog-http:station-song%3a1457492%2f3258141.mp4?sid=29&amp;flags=8224&amp;sn=2</res><r:streamContent></r:streamContent><upnp:albumArtURI>/getaa?s=1&amp;u=x-sonosprog-http%3astation-song%253a1457492%252f3258141.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2</upnp:albumArtURI><dc:title>The Flower Called Nowhere</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Stereolab</dc:creator><upnp:album>Dots And Loops</upnp:album></item></DIDL-Lite>"
+    }, 
+    "aac://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01": {
+        "album": "", 
+        "title": "nprdmp_stream01", 
+        "artist": "", 
+        "uri": "aac://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01", 
+        "playlist_position": "5", 
+        "duration": "0:00:00", 
+        "position": "0:00:00", 
+        "album_art": "", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"aac:*:application/octet-stream:*\">aac://nprdmp-stream01.akacast.akamaistream.net/7/941/364918/v1/npr.akacast.akamaistream.net/nprdmp_stream01</res><r:streamContent>ZPSTR_CONNECTING</r:streamContent><upnp:albumArtURI>/getaa?u=aac%3a%2f%2fnprdmp-stream01.akacast.akamaistream.net%2f7%2f941%2f364918%2fv1%2fnpr.akacast.akamaistream.net%2fnprdmp_stream01&amp;v=0</upnp:albumArtURI><dc:title>nprdmp_stream01</dc:title><upnp:class>object.item</upnp:class></item></DIDL-Lite>"
+    }, 
+    "x-rincon-mp3radio://nprdmp-live01-mp3.akacast.akamaistream.net/7/998/364916/v1/npr.akacast.akamaistream.net/nprdmp_live01_mp3": {
+        "album": "", 
+        "title": "nprdmp_live01_mp3", 
+        "artist": "", 
+        "uri": "x-rincon-mp3radio://nprdmp-live01-mp3.akacast.akamaistream.net/7/998/364916/v1/npr.akacast.akamaistream.net/nprdmp_live01_mp3", 
+        "playlist_position": "1", 
+        "duration": "0:00:00", 
+        "position": "0:00:00", 
+        "album_art": "", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"x-rincon-mp3radio:*:*:*\">x-rincon-mp3radio://nprdmp-live01-mp3.akacast.akamaistream.net/7/998/364916/v1/npr.akacast.akamaistream.net/nprdmp_live01_mp3</res><r:streamContent></r:streamContent><dc:title>nprdmp_live01_mp3</dc:title><upnp:class>object.item</upnp:class></item></DIDL-Lite>"
+    }, 
+    "x-rincon-mp3radio://sc9.shoutcaststreaming.us:9526": {
+        "album": "", 
+        "title": "sc9.shoutcaststreaming.us:9526", 
+        "artist": "", 
+        "uri": "x-rincon-mp3radio://sc9.shoutcaststreaming.us:9526", 
+        "playlist_position": "1", 
+        "duration": "0:00:00", 
+        "position": "0:00:00", 
+        "album_art": "", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"x-rincon-mp3radio:*:*:*\">x-rincon-mp3radio://sc9.shoutcaststreaming.us:9526</res><r:streamContent></r:streamContent><dc:title>sc9.shoutcaststreaming.us:9526</dc:title><upnp:class>object.item</upnp:class></item></DIDL-Lite>"
+    }, 
+    "x-sonosprog-http:station-song%3a1402480%2f30069267.mp4?sid=29&flags=8224&sn=2": {
+        "album": "Mastermind (Deluxe)", 
+        "title": "Sanctified", 
+        "artist": "Rick Ross", 
+        "uri": "x-sonosprog-http:station-song%3a1402480%2f30069267.mp4?sid=29&flags=8224&sn=2", 
+        "playlist_position": "1", 
+        "duration": "0:04:50", 
+        "position": "0:00:00", 
+        "album_art": "http://192.168.1.138:1400/getaa?s=1&u=x-sonosprog-http%3astation-song%253a1402480%252f30069267.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"sonos.com-http:*:audio/mp4:*\" duration=\"0:04:50\">x-sonosprog-http:station-song%3a1402480%2f30069267.mp4?sid=29&amp;flags=8224&amp;sn=2</res><r:streamContent></r:streamContent><upnp:albumArtURI>/getaa?s=1&amp;u=x-sonosprog-http%3astation-song%253a1402480%252f30069267.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2</upnp:albumArtURI><dc:title>Sanctified</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Rick Ross</dc:creator><upnp:album>Mastermind (Deluxe)</upnp:album></item></DIDL-Lite>"
+    }, 
+    "x-sonosprog-http:station-song%3a1766073%2f23050781.mp4?sid=29&flags=8224&sn=2": {
+        "album": "Veni Vidi Vicious", 
+        "artist": "The Hives", 
+        "title": "Hate To Say I Told You So", 
+        "uri": "x-sonosprog-http:station-song%3a1766073%2f23050781.mp4?sid=29&flags=8224&sn=2", 
+        "playlist_position": "1", 
+        "duration": "0:03:21", 
+        "position": "0:00:00", 
+        "album_art": "http://192.168.1.138:1400/getaa?s=1&u=x-sonosprog-http%3astation-song%253a1766073%252f23050781.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2", 
+        "metadata": "<DIDL-Lite xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:upnp=\"urn:schemas-upnp-org:metadata-1-0/upnp/\" xmlns:r=\"urn:schemas-rinconnetworks-com:metadata-1-0/\" xmlns=\"urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/\"><item id=\"-1\" parentID=\"-1\" restricted=\"true\"><res protocolInfo=\"sonos.com-http:*:audio/mp4:*\" duration=\"0:03:21\">x-sonosprog-http:station-song%3a1766073%2f23050781.mp4?sid=29&amp;flags=8224&amp;sn=2</res><r:streamContent></r:streamContent><upnp:albumArtURI>/getaa?s=1&amp;u=x-sonosprog-http%3astation-song%253a1766073%252f23050781.mp4%3fsid%3d29%26flags%3d8224%26sn%3d2</upnp:albumArtURI><dc:title>Hate To Say I Told You So</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>The Hives</dc:creator><upnp:album>Veni Vidi Vicious</upnp:album></item></DIDL-Lite>"
+    }
+}

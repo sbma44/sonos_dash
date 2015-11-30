@@ -1,11 +1,17 @@
 #!/home/pi/projects/sonos_dash/.venv/bin/python
 
 from scapy.all import *
+import soco
 import json
 import threading
 import time
+import datetime
+import settings
 
-DATE = ""
+SONOS = {}
+DEFAULT_VOLUME = {
+    'Kitchen': 60
+}
 
 if __name__ == '__main__':
 
@@ -16,14 +22,42 @@ if __name__ == '__main__':
         if arp_lookup.get(arp) in func_lookup:
           func_lookup[arp_lookup[arp]]()
           
-  def sonos_toggle():
-    print DATE
+  def sonos_toggle_kitchen():
+    sonos = SONOS.get('Kitchen', False)
+    if not sonos:
+      print "no sonos available"
+      return
+
+    if sonos.get_current_transport_info().get('current_transport_state') == 'PLAYING':
+      sonos.stop()
+    else:
+      wamu = settings.WAMU_URI
+      wbez = settings.WBEZ_URI
+      music = settings.get_music_uri()
+
+      now = datetime.datetime.now()
+
+      # old time radio - sunday between 6:45 and 11pm
+      if now.isoweekday() == 7 and now.hour < 23 and ((now.hour * 60) + now.minute) > 1125:
+        sonos.play_uri(wamu)
+        return
+
+      # morning (early)
+      if now.hour < 11:
+        if now.hour >= 9 and now.hour < 10:
+          sonos.play_uri(wbez)
+        else:
+          sonos.play_uri(wamu)
+        return
+
+      # evening in general
+      sonos.play_uri(music)
 
   with open('arp.json') as f:
     arp_lookup = json.load(f)
 
   func_lookup = {
-    'loreal_dash': sonos_toggle
+    'loreal_dash': sonos_toggle_kitchen
   }
 
   t = threading.Thread(target=sniff, kwargs={'prn': arp_respond, 'filter': 'arp', 'store': 0, 'count': 0})
@@ -31,5 +65,7 @@ if __name__ == '__main__':
   t.start()
 
   while True:
-    DATE = time.time()
     time.sleep(1)
+    for m in soco.discover():
+      SONOS[m.player_name] = m
+    time.sleep(30)
