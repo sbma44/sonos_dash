@@ -2,6 +2,7 @@
 
 from scapy.all import *
 import soco
+import os
 import json
 import threading
 import time
@@ -53,7 +54,7 @@ if __name__ == '__main__':
       # evening in general
       sonos.play_uri(music)
 
-  with open('arp.json') as f:
+  with open('{}/arp.json'.format(settings.DIRECTORY)) as f:
     arp_lookup = json.load(f)
 
   func_lookup = {
@@ -64,8 +65,10 @@ if __name__ == '__main__':
   t.daemon = True
   t.start()
 
+  time.sleep(1)
   while True:
-    time.sleep(1)
-    for m in soco.discover():
-      SONOS[m.player_name] = m
+    sd = soco.discover()
+    if sd:
+      for m in soco.discover():
+        SONOS[m.player_name] = m
     time.sleep(30)
