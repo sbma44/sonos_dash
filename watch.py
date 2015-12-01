@@ -1,13 +1,18 @@
 #!/home/pi/projects/sonos_dash/.venv/bin/python
 
-from scapy.all import *
+import sys
 import soco
+import logging
 import os
 import json
 import threading
 import time
 import datetime
 import settings
+from scapy.all import *
+
+logging.basicConfig(format='[sonos_dash] [%(levelname)s] %(message)s', level=logging.WARN)
+LOGGER = logging.getLogger('sonos_dash')
 
 SONOS = {}
 DEFAULT_VOLUME = {
@@ -15,18 +20,22 @@ DEFAULT_VOLUME = {
 }
 
 if __name__ == '__main__':
+  LOGGER.warn('starting')
 
   def arp_respond(pkt):
-    if pkt[ARP].op == 1: # who-has (request)
-      if pkt[ARP].psrc == '0.0.0.0': # ARP Probe
-        arp = pkt[ARP].hwsrc
-        if arp_lookup.get(arp) in func_lookup:
-          func_lookup[arp_lookup[arp]]()
+    if pkt.haslayer(ARP):
+      if pkt[ARP].op == 1: # who-has (request)
+        if pkt[ARP].psrc == '0.0.0.0': # ARP Probe
+          arp = pkt[ARP].hwsrc
+          if arp_lookup.get(arp) in func_lookup:
+            func_lookup[arp_lookup[arp]]()
           
   def sonos_toggle_kitchen():
+    LOGGER.warn('firing sonos_toggle_kitchen()')
+
     sonos = SONOS.get('Kitchen', False)
     if not sonos:
-      print "no sonos available"
+      LOGGER.error('no sonos available')
       return
 
     if sonos.get_current_transport_info().get('current_transport_state') == 'PLAYING':
@@ -61,14 +70,17 @@ if __name__ == '__main__':
     'loreal_dash': sonos_toggle_kitchen
   }
 
+  LOGGER.warn('starting ARP sniffer')
   t = threading.Thread(target=sniff, kwargs={'prn': arp_respond, 'filter': 'arp', 'store': 0, 'count': 0})
   t.daemon = True
   t.start()
 
-  time.sleep(1)
   while True:
     sd = soco.discover()
-    if sd:
-      for m in soco.discover():
-        SONOS[m.player_name] = m
+    if sd is not None and len(sd) > 0:
+      for m in sd:
+        if not m.player_name in SONOS:
+          LOGGER.warn('found new sonos: {}'.format(m.player_name))
+          SONOS[m.player_name] = m
     time.sleep(30)
+
