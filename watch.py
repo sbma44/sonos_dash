@@ -61,7 +61,9 @@ if __name__ == '__main__':
         return
 
       # evening in general
-      sonos.play_uri(music)
+      # music URIs aren't working yet -- this is an all-NPR household
+      sonos.play_uri(wamu)
+      #sonos.play_uri(music)
 
   with open('{}/arp.json'.format(settings.DIRECTORY)) as f:
     arp_lookup = json.load(f)
